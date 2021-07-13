@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import colors from "../constants/colors";
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -9,6 +10,8 @@ const GlobalStyle = createGlobalStyle`
 
   body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: ${colors.darkGrey};
+    background-color: ${colors.boneWhite};
   }
 `;
 

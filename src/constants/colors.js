@@ -3,6 +3,7 @@ const colors = {
   mediumGrey: "#374140",
   green: "#00796B",
   lightGrey: "#BDC3BD",
+  anotherGrey: "#6c757d",
   boneWhite: "#FDFDFD",
 };
 
