@@ -1,16 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 
-const Container = ({ children }) => {
-  return <Row>{children}</Row>;
+export const ContainerBlock = ({ children }) => {
+  return <Container>{children}</Container>;
 };
 
-const Row = styled.div`
+export const Container = styled.div`
   margin: auto;
   display: flex;
-  padding: 3rem 12rem;
-  align-items: center;
-  justify-content: space-between;
+  padding: 3rem 6rem;
+  flex-direction: column;
 `;
 
-export default Container;
+export const Row = styled.div`
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-height: 20vh;
+`;
