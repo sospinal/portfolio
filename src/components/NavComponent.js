@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import colors from "../constants/colors";
 
 const Nav = () => {
@@ -26,6 +26,12 @@ const StyledNav = styled.nav`
   justify-content: space-between;
   padding: 3.5rem 12rem 2rem 12rem;
   align-items: center;
+  @media all and (max-width: 1200px) {
+    padding: 3.5rem 9rem 2rem 9rem;
+  }
+  @media all and (max-width: 1008px) {
+    padding: 3.5rem 6rem 2rem 6rem;
+  }
 
   h2 {
     font-size: 2rem;

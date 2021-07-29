@@ -13,7 +13,6 @@ const Work = () => {
 };
 
 const WorkTitle = styled.h1`
-  margin: auto;
   font-weight: lighter;
 `;
 
