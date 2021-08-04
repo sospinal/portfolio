@@ -7,7 +7,9 @@ const Projects = () => {
   return (
     <Row>
       {projectsInfo.map((project) => {
-        return <Project img={project.img} name={project.name} />;
+        return (
+          <Project img={project.img} name={project.name} key={project.name} />
+        );
       })}
     </Row>
   );
