@@ -3,6 +3,11 @@ import styled from "styled-components/macro";
 import colors from "../constants/colors";
 
 const Nav = () => {
+  const smoothScroll = (e) => {
+    e.preventDefault();
+    document.getElementById("About").scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <header>
       <StyledNav>
@@ -10,8 +15,20 @@ const Nav = () => {
           Santiago <span>Ospina</span>
         </h2>
         <ul>
-          <li>About</li>
-          <li>Resume</li>
+          <li>
+            <a onClick={smoothScroll} href="#About">
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1VJbizZ3PhI_0Nfg7aG6rRVMoFM2zH1fq/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </StyledNav>
     </header>
@@ -59,6 +76,11 @@ const StyledNav = styled.nav`
     &:hover {
       color: ${colors.green};
     }
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 `;
 
