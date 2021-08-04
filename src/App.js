@@ -4,6 +4,8 @@ import GlobalStyle from "./components/GlobalStyle";
 //Import components
 import Nav from "./components/NavComponent";
 import Work from "./components/workSection";
+import About from "./components/aboutSection";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <GlobalStyle />
       <Nav />
       <Work />
+      <About />
+      <Footer />
     </div>
   );
 }
