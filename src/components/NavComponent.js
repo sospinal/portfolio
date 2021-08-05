@@ -22,7 +22,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1VJbizZ3PhI_0Nfg7aG6rRVMoFM2zH1fq/view?usp=sharing"
+              href="https://drive.google.com/file/d/1WUm-B-blxa37_mi6W7jZNsOGytt5N-xD/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
