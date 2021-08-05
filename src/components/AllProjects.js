@@ -8,7 +8,13 @@ const Projects = () => {
     <Row>
       {projectsInfo.map((project) => {
         return (
-          <Project img={project.img} name={project.name} key={project.name} />
+          <Project
+            img={project.img}
+            name={project.name}
+            description={project.description}
+            url={project.url}
+            key={project.name}
+          />
         );
       })}
     </Row>
