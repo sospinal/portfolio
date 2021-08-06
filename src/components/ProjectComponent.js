@@ -25,7 +25,7 @@ const ImageContainer = styled.div`
   position: relative;
   @media all and (max-width: 768px) {
     width: 60%;
-    padding: 2rem 0rem;
+    margin: 2rem 0rem;
   }
   @media all and (max-width: 576px) {
     width: 80%;
@@ -74,8 +74,6 @@ const Description = styled.div`
 
   @media all and (max-width: 768px) {
     height: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     padding-bottom: 4rem;
     font-size: 1.2rem;
     h3 {
