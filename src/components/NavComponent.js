@@ -49,6 +49,15 @@ const StyledNav = styled.nav`
   @media all and (max-width: 1008px) {
     padding: 3.5rem 6rem 2rem 6rem;
   }
+  @media all and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5rem 6rem 0rem 6rem;
+    h2 {
+      padding-bottom: 1rem;
+      text-align: center;
+    }
+  }
 
   h2 {
     font-size: 2rem;
@@ -75,6 +84,9 @@ const StyledNav = styled.nav`
     font-size: 1.2rem;
     &:hover {
       color: ${colors.green};
+    }
+    @media all and (max-width: 768px) {
+      padding: 1rem;
     }
   }
 
