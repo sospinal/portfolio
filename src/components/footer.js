@@ -16,24 +16,42 @@ const Footer = () => {
           <p>&#169; Santiago Ospina L &#127793; &#127795;</p>
 
           <IconsBox>
-            <FontAwesomeIcon
-              icon={faGithub}
-              color={colors.boneWhite}
-              size={iconSize}
-              fixedWidth
-            />
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              color={colors.boneWhite}
-              size={iconSize}
-              fixedWidth
-            />
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              color={colors.boneWhite}
-              size={iconSize}
-              fixedWidth
-            />
+            <a
+              href="https://github.com/sospinal"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                color={colors.boneWhite}
+                size={iconSize}
+                fixedWidth
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sospinal"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                color={colors.boneWhite}
+                size={iconSize}
+                fixedWidth
+              />
+            </a>
+            <a
+              href="mailto:sospinaleal@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                color={colors.boneWhite}
+                size={iconSize}
+                fixedWidth
+              />
+            </a>
           </IconsBox>
         </FooterRow>
       </FooterContainer>
